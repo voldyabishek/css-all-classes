@@ -1,0 +1,12 @@
+img{
+    width:30vw;
+    height:30vw;
+    padding:1rem;
+    float:right;
+}
+
+
+section{
+    display:flow-root;
+    border:2px solid red;
+}

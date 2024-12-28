@@ -1,0 +1,17 @@
+ h1{
+     font-family:a calling;
+}
+
+@font-face{
+      font-family:newfont;
+     src:url(font/ase.otf);
+}
+
+#i{
+  font-family:newfont;
+}
+
+p{
+   font-family:newfont;
+}
+

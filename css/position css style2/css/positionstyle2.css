@@ -1,0 +1,60 @@
+*{
+  scroll-behavior:smooth;
+  }
+
+section{
+     height:100vh;
+}
+
+.blue{
+    background-color:blue;
+}
+
+.red{ 
+     background-color:red;
+}
+
+.yellow{
+      background-color:yellow;
+}
+
+.green{
+      background-color:green;
+}
+
+footer{
+   position:sticky;
+   bottom:0;
+    min-width:100%;
+    background-color:pink;
+    text-align:center;
+}
+
+header{
+   font-size:3rem;
+   color:aliceblue;
+   text-align:center;
+   height:50px;
+   position:sticky;
+   top:0;
+   margin:0;
+  padding:0;
+}
+
+#btn1{
+   position:fixed;
+   top:300px;
+   left:79rem;
+   font-size:inherit;
+    z-index:1;
+}
+
+#two h2{ height:100vh;
+}
+
+#btn2{
+   position:fixed;
+   top:500px;
+   font-size:inherit;
+    z-index:1;
+  }

@@ -1,0 +1,23 @@
+
+}
+table{
+         border-collapse:collapse;
+          width:100%;
+}
+
+th,td{
+   padding:10px;
+   text-align:center;
+   border:1px solid skyblue;
+ }
+
+tr:nth-child(odd){
+        background-color: pink;
+}
+
+tr:hover{
+         background-color:skyblue;
+          color:green;
+        font-family:Algerian;
+}
+

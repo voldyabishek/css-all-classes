@@ -1,0 +1,38 @@
+.pagination{
+    display:inline-block;
+}
+
+.pagination a{
+    color:rgb(25, 6, 6);
+    float:left;
+    padding:8px 16px;
+    text-decoration:none;
+    border-radius:5px;
+    margin:0 3px;
+    font-size:22px;
+    background-color:yellow;
+}
+
+.pagining a.green{
+     background-color: rgb(15, 224, 213);
+     color:white;
+     border-radius: 5px;
+}
+
+.pagination  a:hover:not(.green)
+  {
+    background-color:black ;
+
+}
+
+.center,h2{
+    text-align:center;
+}
+
+section{
+     height:80vh;
+}
+
+footer{
+    text-align:center;
+}

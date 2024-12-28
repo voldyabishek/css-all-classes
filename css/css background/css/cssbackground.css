@@ -1,0 +1,21 @@
+body{
+       
+        background-color:red;
+        color:white;
+          }
+ section{
+          background-image: url(../IMAGE/hi.JPEG);
+          height:100vh;
+          background-repeat:no-repeat;
+          background-size:cover;
+}
+ #h12{
+         background-color:orange;
+         text-align:center;
+         font-size:1rem;
+         }
+       
+*{
+   padding;1;
+   margin:1;
+}
