@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+    }
+
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .dropdown {
+      float: left;
+    }
+
+    .dropdown .dropbtn {
+      font-size: 16px;
+      border: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      margin: 0;
+    }
+
+    .navbar a:hover,
+    .dropdown:hover {
+      background-color: rgb(91, 150, 244);
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(248, 0, 0, 0.2);
+
+    }
+
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #a4d7d7bf;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    #i {
+      background-color: rgb(255, 255, 255);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="navbar">
+    <a href="#home">Home <i class="fa-brands fa-square-instagram fga-beat"></i> </a>
+    <a href="#news">News</a>
+
+    <div class="dropdown">
+      <button class="dropbtn">Dropdown
+        <i class="fa fa-caret-down "></i>
+      </button>
+
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+  </div>
+
+  <h2>this type of class and functions</h2>
+  <h4>unable to forward amd class</h4>
+</body>
+
+</html>
+
+
+<mark>
+  <h1 id="i">welcome to the droptest</h1>
+</mark>
+<span id="i">heyy!! how are you buddy</span>
+
+
